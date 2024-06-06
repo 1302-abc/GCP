@@ -14,12 +14,12 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: gcr.io/core-plate-424123-h0/frontend:latest
+        image: gcr.io/studied-setting-424123-a9/frontend:latest
         ports:
         - containerPort: 80
         env:
         - name: BACKEND_SERVICE_IP
-          value: "34.135.33.79"  # Replace with your actual backend service DNS name
+          value: "34.69.170.57"  # docker
       imagePullSecrets:
       - name: db-credentials
 ---
